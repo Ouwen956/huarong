@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>桦溶娱乐</title>
+  <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+  <!-- global header start -->
+<div class="header">
+  <div class="container clearfix">
+      <div class="logo fl">
+            <img class="star1" src="../images/star.png">
+            <img class="star2" src="../images/star.png">
+            <img class="star3" src="../images/star.png">
+          <img id="logoFlash" src="../images/logo.png">
+      </div>
+      <div class="nav fl" id="nav">
+          <ul class="clearfix">
+            <li>
+              <a href="../index.html">首页</a>
+            </li>
+            <li>
+              <a href="./khzc.html">开户注册</a>
+            </li>
+            <li>
+              <a href="./Appxz.html">APP下载</a>
+            </li>
+            <li>
+              <a href="./cjwt.html">常见问题</a>
+            </li>
+            <li>
+              <a href="./gzsm.html">规则说明</a>
+            </li>
+            <li class="active">
+              <a href="./jmhz.html">加盟合作</a>
+            </li>
+            <li class="hot">
+              <a href="./zxyh.html">最新优惠</a>
+              <i></i>
+            </li>
+            <li class="">
+              <a href="javascript:alert('暂时未开通此功能');">在线客服</a>
+            </li>
+          </ul>
+      </div>
+      <div class="tool-bar">
+          <ul class="clearfix">
+            <li>
+                <a href="#" class="cyl2 fwb">线路检测</a>
+            </li>
+            <li class="cyl2">|</li>
+            <li>
+                <a href="javascript:void(0);" class="cyl2">设为主页</a>
+            </li>
+            <li class="cyl2">|</li>
+            <li>
+                <a href="./jmhz.html" class="cyl2">代理加盟</a>
+            </li>
+              <li>|</li>
+              <li class="lan clearfix">
+                  <a href="javascript:void(0);" class="cn"></a>
+                  <a href="javascript:void(0);" class="hk"></a>
+                  <a href="javascript:void(0);" class="us"></a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</div>
+<div class="lgbox" id="lg_box">
+  <div class="container">
+      <form id="loginForm">
+          <ul class="clearfix">
+              <li class="tit">THE LOGIN</li>
+              <li>
+                  <label for="userName" class="cover"></label>
+                  <input type="text" id="userName" name="userName" maxlength="15" placeholder="账号">
+              </li>
+              <li>
+                  <label for="userPwd" class="cover"></label>
+                  <input type="password" id="userPwd" name="userPwd" maxlength="20" placeholder="密码">
+              </li>
+              <li>
+                  <label for="loginVcode" class="cover"></label>
+                  <input type="text" id="loginVcode" maxlength="4" name="loginVcode" placeholder="验证码">
+                  <font id="numberCode" onselectstart="return false">4306</font>
+              </li>
+              <li>
+                  <input type="button" value="" class="btn-lg" id="loginSubmitBtn">
+              </li>
+              <li>
+                  <a href="./view/khzc.html" class="btn-reg"></a>
+              </li>
+              <li>
+                  <a href="javascript:gAlert('请联系在线客服');" class="forget">忘记密码</a>
+              </li>
+          </ul>
+      </form>
+  </div>
+</div>
+<!-- global header end -->
+
+  <div class="banner">
+      <div class="radio">
+  <div class="wrap">
+      <div class="tit">
+          <i></i>
+          <span>公告NEWS:</span>
+      </div>
+      <div class="marquee" id="noticeDom"><marquee scrollamount="4" scrolldelay="30" onmouseover="this.stop();" onmouseout="this.start();">需要添加的公告文字</marquee></div>
+</div>
+</div>
+
+  </div>
+  <div class="main">
+      <div class="container clearfix">
+          <div class="leftmenu fl">
+  <div class="tit">游戏导航</div>
+  <div class="list">
+      <ul>
+        <li>
+          <a href="./jmhz.html" class="agentplan"></a>
+      </li>
+      <li>
+          <a href="./jmxy.html" class="agentrules"></a>
+      </li>
+      <li>
+          <a href="./tgdz.html" class="agenturl"></a>
+      </li>
+      <li>
+          <a href="./dlzc.html" class="agentreg"></a>
+      </li>
+      <li>
+          <a href="javascript:agentLogin();" class="agentlg"></a>
+      </li>
+      </ul>
+  </div>
+</div>
+
+          <div class="text fl">
+              <div class="wrap">
+                  <p class="cf7">加盟协议</p>
+                  <p>一、桦溶彩票网对代理联盟的权利与义务 </p>
+                  <p>1.桦溶彩票网的客服部会登记联盟的会员并会观察他们的投注状况。联盟及会员必须同意并遵守桦溶彩票网的会员条例，政策及操作程序。桦溶彩票网保留拒绝或冻结联盟/会员账户权利。 </p>
+                  <p>2. 代理联盟可随时登入接口观察旗下会员的下注状况及会员在网站的活动概况。桦溶彩票网的客服部会根据代理联盟旗下的会员计算所得的佣金。</p>
+                  <p>3. 桦溶彩票网保留可以修改合约书上的任何条例，包括: 现有的佣金范围、佣金计划、付款程序、及参考计划条例的权力，桦溶彩票网会以电邮、网站公告等方法通知代理联盟。 代理联盟对于所做的修改有异议，代理联盟可选择终止合约，或洽客服人员反映意见。 如修改后代理联盟无任何异议，便视作默认合约修改，代理联盟必须遵守更改后的相关规定。</p>
+                  <p>二、代理联盟对桦溶彩票网的权力及义务 </p>
+                  <p>1.代理联盟应尽其所能，广泛地宣传、销售及推广桦溶彩票网，使代理本身及桦溶彩票网的利润最大化。代理联盟可在不违反法律下，以正面形象宣传、销售及推广桦溶彩票网，并有责任义务告知旗下会员所有桦溶彩票网的相关优惠条件及产品。</p>
+                  <p>2. 代理联盟选择的桦溶彩票网推广手法若需付费，则代理应承担该费用。 </p>
+                  <p>3. 任何桦溶彩票网相关信息包括: 标志、报表、游戏画面、图样、文案等，代理联盟不得私自复制、公开、分发有关材料，桦溶彩票网保留法律追诉权。如代理在做业务推广有相关需要，请随时洽桦溶彩票网。</p>
+                  <p>三、规则条款 </p>
+                  <p>1.各阶层代理联盟不可在未经桦溶彩票网许可情况下开设双/多个的代理账号，也不可从桦溶彩票网账户或相关人士赚取佣金。请谨记任何阶层代理不能用代理帐户下注，桦溶彩票网有权终止并封存账号及所有在游戏中赚取的佣金。</p>
+                  <p>2.为确保所有桦溶彩票网会员账号隐私与权益，桦溶彩票网不会提供任何会员密码，或会员个人资料。各阶层代理联盟亦不得以任何方式取得会员数据，或任意登入下层会员账号，如发现代理联盟有侵害桦溶彩票网会员隐私行为，桦溶彩票网有权取消代理联盟红利，并取消代理联盟账号。 </p>
+                  <p>3. 代理联盟旗下的会员不得开设多于一个的账户。桦溶彩票网有权要求会员提供有效的身份证明以验证会员的身份，并保留以IP判定是否重复会员的权利。如违反上述事项，桦溶彩票网有权终止玩家进行游戏并封存账号及所有于游戏中赚取的佣金 </p>
+                  <p>4. 代理联盟不可为自己或其他联盟下的有效投注会员,只能是公司直属下的有效投注会员, 代理每月需有10个下线有效投注会员（每月至少上线3次进行正常投注），如有违反联盟协议百桦溶彩票网有权终止并封存账号及所有在游戏中赚取的佣金。 </p>
+                  <p>5. 如代理联盟旗下的会员因为违反条例而被禁止享用桦溶彩票网的游戏，或桦溶彩票网退回存款给会员，桦溶彩票网将不会分配相应的佣金给代理联盟。如代理联盟旗下会员存款用的信用卡、银行资料须经审核，桦溶彩票网保留相关佣金直至审核完成。</p>
+                  <p>6. 合约内的条件会以桦溶彩票网通知接受代理联盟加入后开始执行。桦溶彩票网及代理联盟可随时终止此合约，在任何情况下，代理联盟如果想终止合约，都必须以书面/电邮方式提早于七日内通知桦溶彩票网。 代理联盟的表现会3个月审核一次，如代理联盟已不是现有的合作成员则本合约书可以在任何时间终止。如合作伙伴违反合约条例，桦溶彩票网有权立即终止合约。</p>
+                  <p>7. 在没有桦溶彩票网许可下，代理联盟不能透露及授权桦溶彩票网相关密数据，包括代理联盟所获得的回馈、佣金报表、计算等;代理联盟有义务在合约终止后仍执行机密文件及数据的保密。 </p>
+                  <p>8. 在合约终止后，代理联盟及桦溶彩票网将不须要履行双方的权利及义务。终止合约并不会解除代理联盟于终止合约前应履行的义务。</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- global footer start -->
+<div class="footer">
+  <div class="wrap">
+      <div class="paylist"></div>
+      <div class="servicelist">
+          <ul class="clearfix">
+            <li>
+              <a href="javascript:void(0); " class="phone "> <img src="../images/icon_01.png" alt=""> 免费电话 <span class="cfgMainPhone ">**********</span></a>
+          </li>
+          <li>
+              <a href="javascript:qqService(); " target="_blank " class="qq "><img src="../images/icon_02.png" alt="">联系QQ <span class="cfgMainCustomerQQ ">*******</span></a>
+          </li>
+          <li>
+              <a href="javascript:void(0); " class="email "><img src="../images/icon_03.png" alt="">联系邮箱 <span class="cfgMainEmail ">**********</span></a>
+          </li>
+          <li class="last ">
+              <a href="javascript:BBOnlineService(); " class="online "><img src="../images/icon_04.png" alt=""><span>7X24</span> 小时在线客服</a>
+          </li>
+          </ul>
+      </div>
+      <div class="links">
+        <a href="./ckbz.html">存款取款</a>
+        <span>|</span>
+        <a href="./cjwt.html">常见问题</a>
+        <span>|</span>
+        <a href="./gzsm.html">规则说明</a>
+        <span>|</span>
+        <a href="./jmhz.html">加盟合作</a>
+        <span>|</span>
+        <a href="./about.html">关于我们</a>
+        <span>|</span>
+        <a href="./zxyh.html">最新优惠</a>
+      </div>
+      <div class="cominfo">Copyright © 桦溶彩票 Reserved</div>
+  </div>
+</div>
+<!-- global footer end -->
+
+  <div class="float" id="float" style="position: absolute; z-index: 1000; top: 130px; right: 1px;">
+  <ul>
+      <li class="service">
+          <a href="javascript:BBOnlineService();"></a>
+      </li>
+      <li class="register">
+          <a href="./khzc.html"></a>
+      </li>
+      <li class="try">
+          <a href="javascript:guestLogin();"></a>
+      </li>
+      <li class="qq">
+          <a href="javascript:qqService();" target="_blank">
+              <span class="cfgMainCustomerQQ"></span>
+          </a>
+      </li>
+      <li class="ewm">
+          <a href="./Appxz.html">
+              <img src="" alt="">
+              <p>APP下载</p>
+          </a>
+      </li>
+      <li id="float_close" class="close">
+          <a href="javascript:void(0);"></a>
+      </li>
+  </ul>
+</div>
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px" tabindex="-1">
+  <div>
+      <p id="modal1Desc" style="color: #000"></p>
+      <span class="btnclose">关闭</span>
+  </div>
+</div></div>
+</body>
+</html>

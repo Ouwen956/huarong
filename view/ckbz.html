@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>桦溶娱乐</title>
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body>
+    <!-- global header start -->
+    <div class="header">
+        <div class="container clearfix">
+            <div class="logo fl">
+                <img class="star1" src="../images/star.png">
+                <img class="star2" src="../images/star.png">
+                <img class="star3" src="../images/star.png">
+                <img id="logoFlash" src="../images/logo.png">
+            </div>
+            <div class="nav fl" id="nav">
+                <ul class="clearfix">
+                    <li>
+                        <a href="../index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="./khzc.html">开户注册</a>
+                    </li>
+                    <li>
+                        <a href="./Appxz.html">APP下载</a>
+                    </li>
+                    <li>
+                        <a href="./cjwt.html">常见问题</a>
+                    </li>
+                    <li>
+                        <a href="./gzsm.html">规则说明</a>
+                    </li>
+                    <li>
+                        <a href="./jmhz.html">加盟合作</a>
+                    </li>
+                    <li class="hot">
+                        <a href="./zxyh.html">最新优惠</a>
+                        <i></i>
+                    </li>
+                    <li>
+                        <a href="javascript:alert('暂时未开通此功能');">在线客服</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tool-bar">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#" class="cyl2 fwb">线路检测</a>
+                    </li>
+                    <li class="cyl2">|</li>
+                    <li>
+                        <a href="javascript:void(0);" class="cyl2">设为主页</a>
+                    </li>
+                    <li class="cyl2">|</li>
+                    <li>
+                        <a href="./jmhz.html" class="cyl2">代理加盟</a>
+                    </li>
+                    <li>|</li>
+                    <li class="lan clearfix">
+                        <a href="javascript:void(0);" class="cn"></a>
+                        <a href="javascript:void(0);" class="hk"></a>
+                        <a href="javascript:void(0);" class="us"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lgbox" id="lg_box">
+        <div class="container">
+            <form id="loginForm">
+                <ul class="clearfix">
+                    <li class="tit">THE LOGIN</li>
+                    <li>
+                        <label for="userName" class="cover"></label>
+                        <input type="text" id="userName" name="userName" maxlength="15" placeholder="账号">
+                    </li>
+                    <li>
+                        <label for="userPwd" class="cover"></label>
+                        <input type="password" id="userPwd" name="userPwd" maxlength="20" placeholder="密码">
+                    </li>
+                    <li>
+                        <label for="loginVcode" class="cover"></label>
+                        <input type="text" id="loginVcode" maxlength="4" name="loginVcode" placeholder="验证码">
+                        <font id="numberCode" onselectstart="return false">4306</font>
+                    </li>
+                    <li>
+                        <input type="button" value="" class="btn-lg" id="loginSubmitBtn">
+                    </li>
+                    <li>
+                        <a href="./view/khzc.html" class="btn-reg"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:gAlert('请联系在线客服');" class="forget">忘记密码</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <!-- global header end -->
+
+    <div class="banner">
+        <div class="radio">
+            <div class="wrap">
+                <div class="tit">
+                    <i></i>
+                    <span>公告NEWS:</span>
+                </div>
+                <div class="marquee" id="noticeDom">
+                    <marquee scrollamount="4" scrolldelay="30" onmouseover="this.stop();" onmouseout="this.start();">需要添加的公告文字</marquee>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="container clearfix">
+            <div class="leftmenu fl">
+                <div class="tit">游戏导航</div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="./about.html" class="about "></a>
+                        </li>
+                        <li>
+                            <a href="./cjwt.html " class="question1 "></a>
+                        </li>
+                        <li>
+                            <a href="./generalfaq.html " class="question2 "></a>
+                        </li>
+                        <li>
+                            <a href="./techfaq.html " class="question3 "></a>
+                        </li>
+                        <li>
+                            <a href="./zxyh.html " class="activity "></a>
+                        </li>
+                        <li>
+                            <a href="./lxwm.html " class="contact "></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text fl">
+                <div class="wrap">
+                    <p class="cf7">存款取款</p>
+                    <p>存款帮助：</p>
+                    <p>本公司提供多种存款，7×24小时可随时存款。支持「汇款」与「在线支付」方式存款。最低存款金额10元，汇款暂无最高限制。</p>
+                    <p>【汇款存款方法】</p>
+                    <p>会员登入后点选「存款提款」，选择「在线存款」。 在页面上方「汇款存款」栏查看本公司最新的银行财务账号，将您要存款的钱通过网银、ATM、柜台等方式转入相应的账户中。然后在下方的汇款提交栏中输入您汇款的金额，选择您汇款的银行以及时间等。填写完毕提交，提交完后，耐心稍等片刻，工作人员会第一时间为您做确认处理。确认通过后您的账户余额会自动更新。您也可以随时在账户的近期记录中查询您提交的信息的状态以及处理时间。如长时间未处理的，请您核对您的资金转出是否成功，转入的账号是否正确。
+                        </p>
+                    <p>【在线支付存款方法】</p>
+                    <p>会员登入后点选「存款提款」，选择「在线存款」。 在页面下方「在线存款」栏输入存款金额，确定，进入「确认」页面，选择您要付款的银行，并核对存款金额，提交后便进入银行支付页面。按照银行的支付流程付款。付款完成请不要过快关闭窗口。等待银行回调页面。付款成功余额将会自动更新。如您付款完成后余额没有更新，请马上联系我们在线客服人员。</p>
+                    <p>提款帮助：</p>
+                    <p>桦溶彩票网致力为会员提供最优质的服务,7×24小时随时提款，不限金额。不需要支付任何费用。提款方法如下：</p>
+                    <p>会员登入后点选「存款提款」，选择「在线提款」。</p>
+                    <p>并确认提款人姓名与您绑定的银行帐号持有人相符，第一次提款如未先绑定请到「会员资料」页面中绑定。</p>
+                    <p>输入「取款金额」以及「提款密码」，然后提交，稍等片刻工作人员收到申请核对无误后马上转入您的银行账户。</p>
+                    <p>目前公司支持银行卡提款方式，不支持支付宝、财付通提款。</p>
+                    <p>取款须知</p>
+                    <p>1 、银行账户持有人姓名必须与您绑定时输入的姓名一致，否则无法到账。</p>
+                    <p>2 、大陆各银行帐户均可申请提款。</p>
+                    <p>3 、每个账户24小时无限制申请提款。</p>
+                    <p>4 、买彩后未经全额投注提彩申请不予受理。</p>
+                    <p>5 、每位客户只可以使用一张银行卡进行提款，如需要更换银行卡请与客服人员联系。 </p>
+                    <p>6 、为保障客户资金安全，有可能需要与您电话联系验证或其它资料验证，以确保客户资金不会被冒领。 </p>
+                    <p>到账时间？</p>
+                    <p>本站24小时均可申请提款，提款三分钟内到账，提款不收取任何手续费</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- global footer start -->
+    <div class="footer">
+        <div class="wrap">
+            <div class="paylist"></div>
+            <div class="servicelist">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:void(0); " class="phone ">
+                            <img src="../images/icon_01.png" alt=""> 免费电话
+                            <span class="cfgMainPhone ">**********</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:qqService(); " target="_blank " class="qq ">
+                            <img src="../images/icon_02.png" alt="">联系QQ
+                            <span class="cfgMainCustomerQQ ">*******</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0); " class="email ">
+                            <img src="../images/icon_03.png" alt="">联系邮箱
+                            <span class="cfgMainEmail ">**********</span>
+                        </a>
+                    </li>
+                    <li class="last ">
+                        <a href="javascript:BBOnlineService(); " class="online ">
+                            <img src="../images/icon_04.png" alt="">
+                            <span>7X24</span> 小时在线客服</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links">
+                <a href="./ckbz.html">存款取款</a>
+                <span>|</span>
+                <a href="./cjwt.html">常见问题</a>
+                <span>|</span>
+                <a href="./gzsm.html">规则说明</a>
+                <span>|</span>
+                <a href="./jmhz.html">加盟合作</a>
+                <span>|</span>
+                <a href="./about.html">关于我们</a>
+                <span>|</span>
+                <a href="./zxyh.html">最新优惠</a>
+            </div>
+            <div class="cominfo">Copyright © 桦溶彩票 Reserved</div>
+        </div>
+    </div>
+    <!-- global footer end -->
+
+    <div class="float" id="float" style="position: absolute; z-index: 1000; top: 221.95px; right: 1px;">
+        <ul>
+            <li class="service">
+                <a href="javascript:BBOnlineService();"></a>
+            </li>
+            <li class="register">
+                <a href="./khzc.html"></a>
+            </li>
+            <li class="try">
+                <a href="javascript:guestLogin();"></a>
+            </li>
+            <li class="qq">
+                <a href="javascript:qqService();" target="_blank">
+                    <span class="cfgMainCustomerQQ"></span>
+                </a>
+            </li>
+            <li class="ewm">
+                <a href="./Appxz.html">
+                    <img src="" alt="">
+                    <p>APP下载</p>
+                </a>
+            </li>
+            <li id="float_close" class="close">
+                <a href="javascript:void(0);"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="remodal-overlay remodal-is-closed" style="display: none;"></div>
+    <div class="remodal-wrapper remodal-is-closed" style="display: none;">
+        <div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc"
+            data-remodal-options="hashTracking: false" style="width: 250px" tabindex="-1">
+            <div>
+                <p id="modal1Desc" style="color: #000"></p>
+                <span class="btnclose">关闭</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
